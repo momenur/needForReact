@@ -7,11 +7,11 @@ const accessory = [
     {name: 'Sunglass', band: 'Redux', price: 6000, color: 'Pink'}
 ];
 const bands = accessory.map(item => item.band);
-console.log(bands);
+// console.log(bands);
 
 // forEach Concept 
 accessory.forEach(product => {
     const price = product.price;
     const newPrice = price + 50000 ;
-    console.log(newPrice);
+    // console.log(newPrice);
 });
